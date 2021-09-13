@@ -1,10 +1,9 @@
+/* body style */
 body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
 }
-/* .full{
-  background-color: gainsboro;
-} */
+/* search area style */
 .search-field {
   border: none;
   border-radius: 50px;
@@ -30,6 +29,7 @@ body {
   border-radius: 25px;
   margin-left: 37px;
 }
+/* items style */
 #all-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -58,10 +58,7 @@ body {
   background-color: rgb(240, 86, 86);
   color: white;
 }
-.buy-btn{
-  color: white;
-  background-color: rgb(240, 86, 86);
-}
+/* total count style */
 .cart {
   width: 350px;
   /* border: 1px solid green; */
@@ -74,6 +71,11 @@ body {
 .cart-main {
   padding-right: 30px;
 }
+.buy-btn{
+  color: white;
+  background-color: rgb(240, 86, 86);
+}
+/* media queries */
 @media only screen and (max-width: 768px) {
   #all-products {
     display: grid;
